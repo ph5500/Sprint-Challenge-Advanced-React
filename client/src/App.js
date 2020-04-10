@@ -14,7 +14,7 @@ class App extends React.Component {
       .get('http://localhost:5000/api/players')
       .then(response => {
         console.log(response);
-        thissetState({ players: response.data })
+        this.setState({ players: response.data })
       })
       .catch(error => {
         console.log("The data waas not returned", error)
