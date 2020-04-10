@@ -12,7 +12,7 @@ const Header = () => {
   return (
     <div className="dark-btn">
       <div data-testid="header" onClick={toggleMode} className="toggle">
-        <span></span>Toggle za Dark Mode
+        <span>☾</span> <button>Toggle DarkMode</button>
       </div>
     </div>
   );
